@@ -12,7 +12,7 @@
         android:id="@+id/chb_Setting_music"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="پخش شدن موسیقی"
+        android:text="play music"
         android:textSize="20dp"
         android:layout_margin="10dp"/>
 
@@ -20,7 +20,7 @@
         android:id="@+id/chb_Setting_screen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="روشن ماندن صفحه"
+        android:text="keep the screen on"
         android:textSize="20dp"
         android:layout_margin="10dp"/>
 
@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24dp"
-        android:text="انتخاب فونت"/>
+        android:text="size selection"/>
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -47,7 +47,7 @@
             android:id="@+id/rad_Setting_size3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="بزرگ"
+            android:text="big"
             android:textSize="25dp"
             android:layout_marginEnd="20dp"/>
 
@@ -55,7 +55,7 @@
             android:id="@+id/rad_Setting_size2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="متوسط"
+            android:text="medium"
             android:textSize="20dp"
             android:layout_marginEnd="20dp"/>
 
@@ -63,7 +63,7 @@
             android:id="@+id/rad_Setting_size1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="کوچک"
+            android:text="little"
             android:textSize="15dp"/>
 
     </RadioGroup>
@@ -78,7 +78,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24dp"
-        android:text="انتخاب فونت"/>
+        android:text="font selection"/>
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -91,24 +91,24 @@
             android:id="@+id/rad_Setting_font3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="فونت سوم"
-            android:textSize="20dp"
-            android:layout_marginEnd="20dp"/>
+            android:text="the third font"
+            android:textSize="15dp"
+            android:layout_marginEnd="10dp"/>
 
         <RadioButton
             android:id="@+id/rad_Setting_font2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="فونت دوم"
-            android:textSize="20dp"
-            android:layout_marginEnd="20dp"/>
+            android:text="the second font"
+            android:textSize="15dp"
+            android:layout_marginEnd="10dp"/>
 
         <RadioButton
             android:id="@+id/rad_Setting_font1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="فونت اول"
-            android:textSize="20dp"/>
+            android:text="the first font"
+            android:textSize="15dp"/>
 
     </RadioGroup>
 
@@ -125,7 +125,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="پیش نمایش"
+            android:text="preview"
             android:textColor="#000000"/>
 
     </LinearLayout>
