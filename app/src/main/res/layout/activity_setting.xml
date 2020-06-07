@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting"
+    android:orientation="vertical">
+
+
+    <CheckBox
+        android:id="@+id/chb_Setting_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="پخش شدن موسیقی"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+    <CheckBox
+        android:id="@+id/chb_Setting_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="روشن ماندن صفحه"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1a1a1a"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="انتخاب فونت"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/rad_Setting_size3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="بزرگ"
+            android:textSize="25dp"
+            android:layout_marginEnd="20dp"/>
+
+        <RadioButton
+            android:id="@+id/rad_Setting_size2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="متوسط"
+            android:textSize="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <RadioButton
+            android:id="@+id/rad_Setting_size1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="کوچک"
+            android:textSize="15dp"/>
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1a1a1a"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="انتخاب فونت"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/rad_Setting_font3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="فونت سوم"
+            android:textSize="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <RadioButton
+            android:id="@+id/rad_Setting_font2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="فونت دوم"
+            android:textSize="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <RadioButton
+            android:id="@+id/rad_Setting_font1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="فونت اول"
+            android:textSize="20dp"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#D8D7D7"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_Setting_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="پیش نمایش"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
